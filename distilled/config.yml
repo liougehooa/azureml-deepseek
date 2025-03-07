@@ -1,0 +1,13 @@
+config:
+    AZURE_SUBSCRIPTION_ID: "<your-subscription-id>"  
+    AZURE_RESOURCE_GROUP: "<your-resource-group>" 
+    AZURE_WORKSPACE: "<your-workspace-name>"
+    HF_TOKEN: "" # Please modify to your Hugging Face token
+    IS_DEBUG: true
+
+serve:
+    azure_env_name: "deepseek-distill-llama-70b-env" # Please modify to your AzureML env name
+    azure_model_name: "deepseek-distill-llama-70b" # Please modify to your AzureML model name
+    azure_endpoint_name: "deepseek-llama-70b-endpoint"
+    azure_deployment_name: "blue"
+    azure_serving_cluster_size: "Standard_ND40rs_v2" # 1 x A100 (80GB)
