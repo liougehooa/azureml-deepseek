@@ -52,4 +52,5 @@ This sample code is provided under the MIT-0 license. See the LICENSE file.
 
 ## Authors
 **Jihua Liu**  [Medium](https://medium.com/@liougehooa_64019)
+
 **Dr. Zhang** [Medium](https://medium.com/@klarke4001)
